@@ -25,7 +25,8 @@ form the two diagonal corners of a rectangle such that the rectangle has the lar
 program next finds the two points which together form the two diagonal corners of a rectangle
 such that the rectangle has the largest perimeter.
 
-
+###################################################################################################
+###################################################################################################
 ===========================================================================
 Python Excercise-ML1
  
@@ -91,3 +92,65 @@ To help you understand why your RAM usage is high, we’ll show you memory_profi
 If you’d like to combine CPU and RAM profiling you’ll want to read about Scalene (“Combining CPU and Memory Profiling with Scalene”Links to an external site.), this combines the jobs of line_profiler and memory_profiler with a novel low-impact memory allocator and also contains experimental GPU profiling support.
 VizTracer (“VizTracer for an interactive time-based call stack”Links to an external site.) will let you see a time-based view on your code’s execution, it presents a call stack down the page with time running from left-to-right. You can click into the call stack and even annotate custom messages and behaviour.
 
+###################################################################################################
+###################################################################################################
+
+
+Problem Set2:
+import random
+ 
+# using random.sample()
+# to generate random number list
+res = random.sample(range(1, 5000), 1000000)
+print ("Random number list is : " +  str(res))
+
+========================================================
+Note: For each problem, ensure you use itertools functions where applicable to optimize performance and memory usage.
+
+Problem 1: Even Numbers
+Generate a list of even numbers from the original list.
+Problem 2: Prime Numbers
+Identify and create a list of prime numbers from the original list.
+Problem 3: Fibonacci Sequence
+Find the first 100 Fibonacci numbers that are present in the original list.
+Problem 4: Perfect Squares
+Determine the number of perfect squares in the original list.
+Problem 5: Palindromic Numbers
+Identify and count palindromic numbers within the original list.
+Problem 6: Common Elements
+Given two separate lists of 1,000,000 random integers, find the common elements using itertools.
+Problem 7: Permutations
+Generate all possible permutations of the first 10 elements from the original list.
+Problem 8: Combinations
+Find all combinations of 5 elements from the original list.
+Problem 9: Product
+Calculate the Cartesian product of the original list with itself.
+Problem 10: Grouping
+Group the elements in the original list based on their remainder when divided by 10.
+Problem 11: Infinite Sequence
+Create an infinite sequence of numbers starting from 1 and incrementing by 2 using itertools.count().
+Problem 12: Repeating Sequence
+Repeat the sequence [1, 2, 3] infinitely using itertools.cycle().
+Problem 13: Zip
+Zip the original list with a list of 1,000,000 random characters.
+Problem 14: Chain
+Chain the original list with a list of 1,000,000 random floats.
+Problem 15: Compress
+Compress the original list by removing consecutive duplicate elements.
+Problem 16: Expand
+Expand the compressed list from Problem 15 back to its original form.
+Problem 17: Slice
+Slice the original list to extract the elements from index 100,000 to 200,000.
+Problem 18: Takewhile
+Take elements from the original list while they are less than 50,000.
+Problem 19: Dropwhile
+Drop elements from the original list while they are less than 50,000.
+Problem 20: Filterfalse
+Filter out elements from the original list that are divisible by 3.
+==========================================================
+Additional Considerations:
+
+Performance: Analyze the performance of different itertools functions for each problem.
+Memory Usage: Evaluate how itertools helps manage memory efficiently for large datasets.
+Clarity: Write clean, well-commented code that is easy to understand.
+Efficiency: Optimize your solutions to minimize computational time.
